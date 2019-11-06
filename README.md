@@ -21,7 +21,7 @@
 
 本模型提供了两种启发函数的A\*算法: 一种是基于Manhattan距离的A\*算法(MHA\*)(参考文献1), 另一种是基于Neural Netword Heuristic的A\*算法(NNHA\*)(参考文献2). 其中NNHA\*的网络结构如下:
 
-![](神经网络图片.JPG)
+![](http://bonky-picture.oss-cn-beijing.aliyuncs.com/pic/2019-11-06-004349.jpg)
 
 ## 如何使用该程序
 训练神经网络你可以直接运行`neural_network.py`, 前提是你安装了keras并且去除了代码中的注释. 
@@ -35,7 +35,7 @@
 
 下面是运行过程中的一个NNHA\*效率远远高于MHA\*的例子:
 
-![神经网络方法比曼哈顿快了300倍](效率.png)
+![神经网络方法比曼哈顿快了300倍](http://bonky-picture.oss-cn-beijing.aliyuncs.com/pic/2019-11-06-004357.png)
 
 ## 参考
 1. [The Fifteen Puzzle - The Algorithm](http://jamie-wong.com/2011/10/16/fifteen-puzzle-algorithm/)
